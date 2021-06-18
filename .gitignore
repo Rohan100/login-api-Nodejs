@@ -1,0 +1,13 @@
+package-lock.json
+*.exe
+*.c
+*.html
+javascript
+node_modules/
+fetch.js
+index.js
+prack.js
+product.js
+router.js
+url.js
+urlSchema.js
