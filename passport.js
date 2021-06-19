@@ -45,4 +45,4 @@ let initialize = (passport) => {
 } 
 
 
-// module.exports = initialize;
+module.exports = initialize;
