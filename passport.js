@@ -1,6 +1,6 @@
 const localstratargy = require('passport-local').Strategy;
 const bcrypt = require('bcrypt')
-const Product =  require('../product');
+const Product =  require('./product');
 mongoose = require('mongoose');
 
 const uri =
