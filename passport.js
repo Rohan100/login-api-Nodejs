@@ -4,7 +4,7 @@ const Product =  require('./product');
 mongoose = require('mongoose');
 
 const uri =
-  "mongodb+srv://rohan_ct:P80XO6FeYKzXVJYz@test.znx8q.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://rohan_ct:<password>@test.znx8q.mongodb.net/test?retryWrites=true&w=majority";
   mongoose.connect(uri,{ useUnifiedTopology: true , useNewUrlParser: true })
 
 let initialize = (passport) => {
